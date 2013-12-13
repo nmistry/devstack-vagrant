@@ -14,6 +14,7 @@ RABBIT_PASSWORD=vagrant
 SERVICE_TOKEN=vagrant
 SERVICE_PASSWORD=vagrant
 ADMIN_PASSWORD=vagrant
+HOST_IP=192.168.50.4
 EOF
 
 ## Run the devstack setup
