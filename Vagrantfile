@@ -4,6 +4,8 @@
 Vagrant.configure("2") do |config|
    config.vm.box = "ubuntu-13.04"
    config.vm.box_url = "http://cloud-images.ubuntu.com/vagrant/raring/current/raring-server-cloudimg-amd64-vagrant-disk1.box"
+   config.cache.auto_detect = true
+
 
   config.vm.provider :virtualbox do |vb|
     vb.customize ["modifyvm", :id, "--memory", 2048]
