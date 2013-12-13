@@ -1,5 +1,5 @@
 #!/bin/bash
 
-#install git
-apt-get install -qqy git-core
+# install dependencies
+apt-get install -qqy git-core htop tmux less curl wget vim
 
